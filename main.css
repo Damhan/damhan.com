@@ -1,0 +1,161 @@
+body {
+	margin:0;
+	font-family: 'Inconsolata', monospace;
+}
+
+/*  Navbar and header bar styling */
+#header-div {
+	padding-top:1%;
+	padding-bottom: .1%;
+	background-color:#29849b;
+	margin:0;
+	box-shadow: 0px 3px 14px black;
+	position: relative;
+	z-index: 1;
+}
+
+#navbar {
+	list-style-type: none;
+	display: inline;
+	margin:0;
+
+}
+
+.navbar-li-e {
+	display: inline;
+}
+
+.navbar-links {
+	text-decoration: none;
+	color:white;
+	font-family: 'Space Mono', monospace;
+	font-weight: bold;
+}
+
+#header-title {
+	display:inline;
+	float:right;
+	margin-top:0;
+	margin-bottom:0;
+
+	color:white;
+	padding-right: 1rem;
+}
+
+
+/* Header Image and title styling */
+#header-img-container {
+	margin:0;
+	background-image: url("header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color:white;
+
+	position: relative;
+	z-index: 0;
+
+	height:60%;
+}
+
+#header-image-title {
+	margin-top: 0;
+	font-size: 3rem;
+}
+
+#textcontainer {
+	position: relative;
+  	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+/* CSS for the title / seperators between section */
+
+.seperator {
+	background-color:#29849b;
+	height:8%;
+	text-align: center;
+	box-shadow: 0px 3px 14px black;
+}
+
+
+.sep-text {
+	margin-top:0px;
+	font-size: 2rem;
+	color:white;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+/* Styling for the main text on the site */
+.main-text-wrapper {
+	width:65%;
+	display: block;
+	margin:0 auto;
+
+}
+
+.main-text-links {
+	text-decoration: none;
+	color:black;
+}
+
+.main-text {
+	color:grey;
+	font-family: "Oxygen Mono"
+}
+
+/* styling for the footer */
+footer {
+	background-color: #29849b;
+	height:5%;
+	box-shadow: 0px 3px 14px black;
+	margin-top: 0px;
+}
+
+#footer-text {
+	padding-left: 2%;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+/* Styling for the contact form */
+
+#contact-text-wrapper {
+	width:30%;
+	display:inline-block;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-60%);
+  	padding-left:20%;
+  	margin:0px;
+  	padding-top:0px;
+  	padding-bottom:0px;
+}
+
+
+#contact-form {
+	padding:20px;
+	display: inline-block;
+
+	letter-spacing: 1px;
+	color:black;
+
+	width:30%;
+	height:20%;
+}
+
+label {
+	display:block;
+}
+
+textarea {
+	height: 150px;
+	width: 205px;
+}
+
+input:focus, textarea:focus {
+    border:2px solid #97d6eb;
